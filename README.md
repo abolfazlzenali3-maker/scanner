@@ -1,5 +1,7 @@
 # Scanner
 
+[![CI](https://github.com/abolfazlzenali3-maker/scanner/actions/workflows/ci.yml/badge.svg)](https://github.com/abolfazlzenali3-maker/scanner/actions/workflows/ci.yml)
+
 > Advanced terminal recon / vulnerability scanner — 30 modules, cyber UI,
 > ranked findings and JSON reports written at runtime.
 

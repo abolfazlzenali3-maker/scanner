@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#040806"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00ff41" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <g opacity="0.25" fill="#00ff41" font-family="DejaVu Sans Mono, monospace" font-size="14">
+    <text x="60" y="90">01001101</text>
+    <text x="1010" y="110">11010010</text>
+    <text x="90" y="585">10110100</text>
+    <text x="980" y="575">00101101</text>
+  </g>
+
+  <rect x="60" y="70" width="1080" height="490" rx="18" fill="#0b0f14" stroke="#00ff41" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="60" y="70" width="1080" height="54" rx="18" fill="#111820"/>
+  <circle cx="94" cy="97" r="7" fill="#ff5f56"/>
+  <circle cx="118" cy="97" r="7" fill="#ffbd2e"/>
+  <circle cx="142" cy="97" r="7" fill="#27c93f"/>
+  <text x="175" y="103" fill="#7a8a82" font-family="DejaVu Sans Mono, monospace" font-size="17">~/scanner — social preview</text>
+
+  <text x="110" y="245" fill="#00ff41" font-family="DejaVu Sans Mono, monospace" font-size="82" font-weight="bold">SCANNER</text>
+  <rect x="110" y="268" width="540" height="4" fill="url(#glow)"/>
+
+  <text x="110" y="335" fill="#c7f5c7" font-family="DejaVu Sans Mono, monospace" font-size="27">ADVANCED RECON / VULNERABILITY SCANNER</text>
+
+  <g font-family="DejaVu Sans Mono, monospace" font-size="19">
+    <rect x="110" y="380" width="230" height="48" rx="8" fill="#132018" stroke="#00ff41" stroke-opacity="0.5"/>
+    <text x="225" y="411" text-anchor="middle" fill="#c7f5c7">30 MODULES</text>
+
+    <rect x="360" y="380" width="200" height="48" rx="8" fill="#132018" stroke="#00ff41" stroke-opacity="0.5"/>
+    <text x="460" y="411" text-anchor="middle" fill="#c7f5c7">PYTHON 3</text>
+
+    <rect x="580" y="380" width="220" height="48" rx="8" fill="#132018" stroke="#00ff41" stroke-opacity="0.5"/>
+    <text x="690" y="411" text-anchor="middle" fill="#c7f5c7">KALI LINUX</text>
+  </g>
+
+  <text x="110" y="500" fill="#00ff41" font-family="DejaVu Sans Mono, monospace" font-size="21">kali@scanner:~$ whoami</text>
+  <text x="110" y="530" fill="#c7f5c7" font-family="DejaVu Sans Mono, monospace" font-size="20">created by abolfazlzenali</text>
+  <rect x="350" y="512" width="13" height="22" fill="#00ff41">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
