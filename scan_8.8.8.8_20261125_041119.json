@@ -1,0 +1,17 @@
+{
+  "app": "ABOLFAZLZENALI SENTINEL X",
+  "version": "2.0",
+  "creator": "abolfazlzenali",
+  "channel": "root access",
+  "target": "http://8.8.8.8",
+  "started": 1795597869.7230818,
+  "elapsed_sec": 10.09,
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "INFO": 0
+  },
+  "findings": []
+}

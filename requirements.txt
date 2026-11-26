@@ -1,0 +1,5 @@
+python3
+curl
+dnsutils
+whois
+tor
