@@ -2,8 +2,8 @@
 
 [![CI](https://github.com/abolfazlzenali3-maker/scanner/actions/workflows/ci.yml/badge.svg)](https://github.com/abolfazlzenali3-maker/scanner/actions/workflows/ci.yml)
 
-> Advanced terminal recon / vulnerability scanner — 30 modules, cyber UI,
-> ranked findings and JSON reports written at runtime.
+> Python-based **web pentest recon & vulnerability scanner** for Kali Linux —
+> 30 modules, cyber UI, ranked findings, and JSON reports written at runtime.
 
 ```text
 ┌──(kali㉿kali)-[~/scanner]
@@ -15,6 +15,33 @@ usage: scanner.py [-h] [--all] [--turbo] [--tor] [--proxy PROXY] [target]
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Creator](https://img.shields.io/badge/Creator-abolfazlzenali-00ff41?style=for-the-badge)
 ![Scope](https://img.shields.io/badge/Scope-Authorized%20labs%20only-00ff41?style=for-the-badge)
+
+## Overview
+
+Scanner is a self-contained Python security tool for **authorized web
+application penetration testing**. It performs fast recon and lightweight
+vulnerability probing across **OWASP Top 10**-style classes: SQL injection,
+XSS, SSRF, LFI / path traversal, CORS misconfiguration, open redirect,
+host-header injection, sensitive file exposure and more.
+
+Built and tested on **Kali Linux**, with **Burp Suite** / **OWASP ZAP**
+workflows in mind. Findings are ranked (CRITICAL → INFO) and saved as a fresh
+`scan_<host>_<timestamp>.json` report after every run.
+
+```text
+target → recon → probes → ranked findings → scan_<host>_<timestamp>.json
+```
+
+**GitHub topics:** `cybersecurity` · `python` · `pentesting` · `recon` ·
+`kali-linux` · `vulnerability-scanner` · `web-pentest` · `owasp` ·
+`bug-bounty` · `security-tools` · `infosec` · `network-recon`
+
+## Use cases
+
+- Authorized **web app pentesting** and **bug bounty** recon
+- Quick **OWASP Top 10** surface checks before manual testing with Burp Suite / ZAP
+- **Python automation** for repetitive recon tasks in Kali Linux
+- Lab practice on targets you own, such as **DVWA** or local web apps
 
 ## Download
 
@@ -59,9 +86,17 @@ python3 scanner.py
 | `README.md` | This description |
 | `run.sh` | Launcher script |
 | `requirements.txt` | Required external tools |
+| `docs/OWASP-MAPPING.md` | Module-to-OWASP category mapping |
+| `LICENSE` | MIT license |
 
 Reports are **not stored in this repository**. Each run writes a fresh
 `scan_<host>_<timestamp>.json` file into the directory where you run it.
+
+## OWASP coverage
+
+See [`docs/OWASP-MAPPING.md`](docs/OWASP-MAPPING.md) for a practical mapping
+between the scanner modules and OWASP Top 10 categories. These are heuristic
+checks only — always confirm findings manually.
 
 ## Requirements
 
@@ -70,7 +105,7 @@ Kali Linux already includes most of them. Otherwise install from
 
 ## Creator
 
-**abolfazlzenali**
+**abolfazlzenali** — [GitHub profile](https://github.com/abolfazlzenali3-maker)
 
 ## Note
 
